@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&color=36BCF7&center=true&vCenter=true&width=900&lines=Reddit+Engine;Actor-Based+Distributed+System">
+  <img src="https://readme-typing-svg.herokuapp.com?size=28&color=000000&center=true&vCenter=true&width=900&lines=Reddit+Engine;Actor-Based+Distributed+System">
 </p>
 
 A Reddit-like distributed backend system implemented in Gleam on the Erlang VM using the actor model. The project simulates the core functionality of Reddit while demonstrating scalable concurrency, distributed message passing, and REST API interaction.
