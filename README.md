@@ -19,3 +19,18 @@ The system models a simplified Reddit platform with support for:
 * Feed generation
 
 The backend components run as independent actors (processes) that communicate using message passing on the Erlang VM. A simulation layer generates large numbers of user interactions to evaluate system behavior and scalability. An HTTP API server exposes the engine functionality so that external clients can interact with the system.
+
+## System Architecture
+
+The Reddit Engine is built using an actor-based distributed architecture
+running on the Erlang VM. Each component runs as an independent process
+communicating through message passing.
+
+```mermaid
+graph TD
+Client --> API_Server
+API_Server --> Reddit_Engine
+Reddit_Engine --> User_Registry
+Reddit_Engine --> Subreddit_Registry
+Reddit_Engine --> Content_Coordinator
+Reddit_Engine --> DM_Router
