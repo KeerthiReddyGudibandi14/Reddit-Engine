@@ -34,7 +34,6 @@ Reddit_Engine --> User Registry
 Reddit_Engine --> Subreddit Registry
 Reddit_Engine --> Content Coordinator
 Reddit_Engine --> DM Router
-
 Content Coordinator --> Posts
 Content Coordinator --> Comments
 Content Coordinator --> Voting
