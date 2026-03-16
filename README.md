@@ -28,9 +28,13 @@ communicating through message passing.
 
 ```mermaid
 graph TD
-Client --> API_Server
-API_Server --> Reddit_Engine
-Reddit_Engine --> User_Registry
-Reddit_Engine --> Subreddit_Registry
-Reddit_Engine --> Content_Coordinator
-Reddit_Engine --> DM_Router
+Client --> API Server
+API Server --> Reddit_Engine
+Reddit_Engine --> User Registry
+Reddit_Engine --> Subreddit Registry
+Reddit_Engine --> Content Coordinator
+Reddit_Engine --> DM Router
+
+Content Coordinator --> Posts
+Content Coordinator --> Comments
+Content Coordinator --> Voting
