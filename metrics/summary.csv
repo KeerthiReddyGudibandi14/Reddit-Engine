@@ -1,0 +1,4 @@
+clients,ticks,total_ops,ops_per_client,ops_per_tick,user_register,subreddit_join,post_create,comment_create,vote_up
+16,40,688,43.0,17.2,16,32,224,208,208
+64,40,2752,43.0,68.8,64,128,896,832,832
+128,40,5504,43.0,137.6,128,256,1792,1664,1664
