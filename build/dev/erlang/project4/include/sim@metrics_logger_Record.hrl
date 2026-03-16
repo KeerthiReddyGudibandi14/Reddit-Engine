@@ -1,1 +1,0 @@
--record(record, {source :: binary(), kind :: binary()}).

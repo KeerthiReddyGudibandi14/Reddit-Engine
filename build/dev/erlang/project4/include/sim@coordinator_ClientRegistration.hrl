@@ -1,1 +1,0 @@
--record(client_registration, {label :: binary()}).

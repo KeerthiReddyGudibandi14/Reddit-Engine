@@ -1,1 +1,0 @@
--record(metrics, {operations :: integer(), events :: integer()}).

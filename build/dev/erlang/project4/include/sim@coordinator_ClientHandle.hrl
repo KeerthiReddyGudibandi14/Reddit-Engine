@@ -1,1 +1,0 @@
--record(client_handle, {id :: integer(), label :: binary()}).

@@ -1,1 +1,0 @@
--record(event_recorded, {kind :: binary()}).

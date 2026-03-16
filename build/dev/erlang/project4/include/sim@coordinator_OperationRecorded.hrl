@@ -1,1 +1,0 @@
--record(operation_recorded, {kind :: binary()}).

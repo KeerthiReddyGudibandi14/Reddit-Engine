@@ -1,1 +1,0 @@
--record(id_generator, {next :: integer(), wrap :: fun((integer()) -> any())}).
