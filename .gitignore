@@ -1,0 +1,18 @@
+# Gleam build directory
+build/
+
+# Gleam packages
+packages/
+
+# Erlang compiled artifacts
+*.beam
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node dependencies
+node_modules/
